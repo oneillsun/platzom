@@ -1,0 +1,26 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneillsun/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "javascript",
+    "js",
+    "platzi"
+  ],
+  "author": "Antonio Bello <antbello2005@hotmail.com> (https://www.linkedin.com/in/antoniojbellof/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
